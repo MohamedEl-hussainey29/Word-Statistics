@@ -3,10 +3,10 @@
  program that reads all text files form a specific directory and return word statistics (number of words 
 per file/directory, longest word, shortest word, number of “is”, “are” and “you”)
 
-o The program should have a simple GUI.
-o The input of the program is a directory.
-o It should then search for all text files that reside in that directory.
-o There should be an option to check for text files in subdirectories 
+- The program should have a simple GUI.
+- The input of the program is a directory.
+- It should then search for all text files that reside in that directory.
+- There should be an option to check for text files in subdirectories 
 
 ------------------------------------------------------------------------------------------------
 Problem Modeling
@@ -20,16 +20,16 @@ Main thread identify text files in directory and its subdirectory (one or two le
 **GUI**
 -------
 *Input*
-o Directory path (or selection via browse button) 
-o Checkbox for including subdirectories.
+- Directory path (or selection via browse button).
+- Checkbox for including subdirectories.
 
 *Output* 
-o In table form: 
-▪ #words 
-▪ #is 
-▪ #are 
-▪ #you  
-▪ Longest word per file 
-▪ Shortest word per file 
-▪ Longest word per directory  
-▪ Shortest word per directory  
+- In table form:
+- #words
+- #is
+- #are
+- #you
+- Longest word per file
+- Shortest word per file
+- Longest word per directory
+- Shortest word per directory  
