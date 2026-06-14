@@ -12,14 +12,9 @@ o There should be an option to check for text files in subdirectories
 Problem Modeling
 ------------------
 GUI - 
-Mian thread identify text files in 
-directory and its subdirectory (one or 
-two level) and show them in GUI 
-Each thread explores one or more text 
-files 
-o No. of threads is based on the 
-number of processors (core) 
-Each thread should send updates to  GUI
+Main thread identify text files in directory and its subdirectory (one or two level) and show them in GUI Each thread explores one or more text files.
+- No. of threads is based on the number of processors (core).
+- Each thread should send updates to  GUI
 ----------------------------------------------------------
 
 **GUI**
